@@ -53,12 +53,21 @@ else:
 
 print "***********************************"
 
+if word.startswith(("a", "e", "i", "o", "u","A","E","I","O","U")):
 
+
+    lowercasedword = word.lower()
+    translation = lowercasedword +  pyg2
+
+else:
 
 
 lowercasedword = word.lower()
 firstletter = lowercasedword[0]
 translation = lowercasedword[1:] + firstletter + pyg
+
+
+
 
 print "Your translated word is: "
 
