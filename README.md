@@ -11,7 +11,8 @@ The game's rule is simple:
 3-) If the word starts with a vowel, don't rearrange the words, but simply add "way" at the end of the word! (ex: Erick -> Erickway)
 
 
-The program works the same way (input a word, and you get the translated version), except that it doesn't recognize whether you added a vowel or not in the beginning. I'm working on it!
+The program works the same way! Input a word, and you get the translated version!
 
+Have fun!
 
 Written in Python.
