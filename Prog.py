@@ -1,16 +1,15 @@
-import time import Pyenchant
-
-d = enchant.Dict("en_US")
+import time
 
 """The game consists of moving the first letter of your word, to the end,
 and adding "ay" at the end """
 
-
-print "Welcome to Pig Latin! I will help you changed your desired word into the translated version!"
+print "Welcome to Pig Latin! I will help you changed your desired word into the translated version! The program will keep going running in a loop. Press the close button on this window to close it."
 
 time.sleep(2)
 
+
 def untranslate(w):
+
     time.sleep(0.9)
 
     print "Hold on while I translate this for you."
@@ -29,14 +28,11 @@ def untranslate(w):
 
         print "You didn't enter a word! Close the program and open it again."
 
-
     time.sleep(0.5)
-
 
     print "***********************************"
 
     time.sleep(0.5)
-
 
     if w.isalpha():
 
@@ -46,15 +42,10 @@ def untranslate(w):
 
         print "This word contains a number or a symbol. Close the program and try again"
 
-
     print "***********************************"
 
-    
 
 def translator(w):
-
-
-
     pyg = 'ay'  # This is the "ay" add-on
     pyg2 = 'way'  # for words that start with a vowel, no rearrangenment is made and the word "way" is added in the end
 
@@ -76,14 +67,11 @@ def translator(w):
 
         print "You didn't enter a word! Close the program and open it again."
 
-
     time.sleep(0.5)
-
 
     print "***********************************"
 
     time.sleep(0.5)
-
 
     if w.isalpha():
 
@@ -93,9 +81,7 @@ def translator(w):
 
         print "This word contains a number or a symbol. Close the program and try again"
 
-
     print "***********************************"
-
 
     if w.startswith(("a", "e", "i", "o", "u", "A", "E", "I", "O", "U")):
 
@@ -104,11 +90,9 @@ def translator(w):
 
     else:
 
-
         lowercasedword = w.lower()
         firstletter = lowercasedword[0]
         translation = lowercasedword[1:] + firstletter + pyg
-
 
     print "Your translated word is: "
 
@@ -117,10 +101,6 @@ def translator(w):
     print translation
 
 
-
-decision = raw_input("Do you want to translate or ")
-
-
-
-word = raw_input("Enter a word: ")
-translator(word)
+while True:
+    word = raw_input("Enter a word:")
+    translator(word)
