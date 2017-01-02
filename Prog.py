@@ -1,5 +1,6 @@
-import time
+import time import Pyenchant
 
+d = enchant.Dict("en_US")
 
 """The game consists of moving the first letter of your word, to the end,
 and adding "ay" at the end """
@@ -8,6 +9,47 @@ and adding "ay" at the end """
 print "Welcome to Pig Latin! I will help you changed your desired word into the translated version!"
 
 time.sleep(2)
+
+def untranslate(w):
+    time.sleep(0.9)
+
+    print "Hold on while I translate this for you."
+
+    time.sleep(0.5)
+
+    print "***********************************"
+
+    time.sleep(0.5)
+
+    if len(w) > 0:
+
+        print "You entered a valid word!"
+
+    else:
+
+        print "You didn't enter a word! Close the program and open it again."
+
+
+    time.sleep(0.5)
+
+
+    print "***********************************"
+
+    time.sleep(0.5)
+
+
+    if w.isalpha():
+
+        print "The word doesn't contain a non-alphabetic character!"
+
+    else:
+
+        print "This word contains a number or a symbol. Close the program and try again"
+
+
+    print "***********************************"
+
+    
 
 def translator(w):
 
@@ -43,7 +85,7 @@ def translator(w):
     time.sleep(0.5)
 
 
-    if word.isalpha():
+    if w.isalpha():
 
         print "The word doesn't contain a non-alphabetic character!"
 
@@ -76,6 +118,7 @@ def translator(w):
 
 
 
+decision = raw_input("Do you want to translate or ")
 
 
 
