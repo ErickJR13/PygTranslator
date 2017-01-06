@@ -16,3 +16,6 @@ The program works the same way! Input a word, and you get the translated version
 Have fun!
 
 Written in Python.
+
+
+#[Go back to Main Page](https://erickjreyes.me)
