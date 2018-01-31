@@ -21,4 +21,4 @@ The program works the same way! Input a word, and you get the translated version
 
 ___
 
-# [Go back to Main Page](https://erickjr.me)
+# [Go back to Main Page](http://erickjr.me)
