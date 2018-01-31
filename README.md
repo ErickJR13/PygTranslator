@@ -19,5 +19,6 @@ The program works the same way! Input a word, and you get the translated version
 
 *Written in Python. Source code available by pressing the "View on Github" button above*
 
+___
 
-[Go back to Main Page](https://erickjr.me)
+# [Go back to Main Page](https://erickjr.me)
