@@ -17,7 +17,7 @@ The program works the same way! Input a word, and you get the translated version
 2. Follow the Instructions!
 
 
-*Written in Python*
+*Written in Python. Source code available by pressing the "View on Github" button above*
 
 
 [Go back to Main Page](https://erickjr.me)
